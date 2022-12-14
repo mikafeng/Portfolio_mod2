@@ -80,11 +80,6 @@ main {
     margin-left: 20px;
     margin-right: 20px
 }
-/* .container{
-    display:flex;
-    flex-direction: row;
-} */
-
 
 .about h2 {
     display: flex;
@@ -107,6 +102,12 @@ main {
 }
 
 
+
+
+
+
+
+
 .work h2 {
     display: flex;
     font-size: 36px;
@@ -123,34 +124,34 @@ main {
     color: #ffffff;
 }
 
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
 .work img {
     max-height: 200px;
 }
 
-
 .weatherVibes {
-
-
+    margin-bottom: 5px;
+    padding: 5px;
+    height:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #eaeff1;
+    color: #ffffff;
 }
 
-.Mod-1 {
 
-}
-
-.Mod-2 {
-
-}
-
-.Mod-3 {
-
-}
-
-.Mod-4 {
-
-}
-
-.Mod-5 {
-
+.Mod {
+    margin-bottom: 5px;
+    padding: 5px;
+    height:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #eaeff1;
+    color: #ffffff;
 }
 
 .contact h2{
